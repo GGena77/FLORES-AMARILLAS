@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Flores Amarillas para Agustina</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #fff7d1; /* un fondo suave */
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cambiá "flores.png" por el nombre/URL de tu imagen -->
+    <img src="flores.png" alt="Flores Amarillas">
+    <div class="overlay">Agustina</div>
+  </div>
+</body>
+</html>
